@@ -14,7 +14,7 @@ class Bilgiler extends StatefulWidget {
   State<Bilgiler> createState() => _BilgilerState();
 }
 
-String sifre = "******";
+String sifre = "*****";
 
 class _BilgilerState extends State<Bilgiler> {
   @override

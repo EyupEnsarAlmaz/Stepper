@@ -140,7 +140,7 @@ class _StepperOrnekState extends State<StepperOrnek> {
                   borderRadius: BorderRadius.all(Radius.circular(16)))),
           validator: (girilendeger) {
             if (girilendeger!.length < 6) {
-              return "Şifre En az 6 karakter olmalı";
+              return "Şifre En az 6 karakter olmalıdır";
             }
           },
           onSaved: (girilendeger) {
